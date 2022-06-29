@@ -72,7 +72,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.bram = {
     isNormalUser = true;
-    extraGroups = [ "video" "wheel" "networkmanager" ]; # Enable ‘sudo’ for the user.
+    extraGroups = [ "libvirtd" "video" "wheel" "networkmanager" ]; # Enable ‘sudo’ for the user.
   };
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -94,6 +94,10 @@
 		192.168.0.149 server
 	'';
  
+
+  # virtualization
+  virtualisation.libvirtd.enable = true;
+  programs.dconf.enable = true;
 
   # Open ports in the firewall.
   networking.firewall.allowedTCPPorts = [ 22 ];

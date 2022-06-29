@@ -7,8 +7,12 @@
 	# CODING
      	git
      	neovim
-	vimPlugins.neovim-fuzzy
 	tmux
+	pyright
+	gradle
+
+	# compilers
+	gcc
 
 	# python
 	ueberzug
@@ -24,6 +28,9 @@
 	playerctl
 	ranger
 	gnumake
+	virt-manager
+	libnotify
+	xclip
 
 	# i3
 	nitrogen
