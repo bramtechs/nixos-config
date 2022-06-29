@@ -9,6 +9,10 @@
      	neovim
 	vimPlugins.neovim-fuzzy
 	tmux
+
+	# python
+	ueberzug
+	spotdl
      	
 	# UTILS	
 	wget
@@ -18,6 +22,7 @@
 	bmon
 	iotop
 	playerctl
+	ranger
 
 	# i3
 	nitrogen

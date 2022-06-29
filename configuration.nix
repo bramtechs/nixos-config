@@ -50,6 +50,11 @@
     keyMap = "be-latin1";
   };
 
+  # bashrc
+  environment.interactiveShellInit = ''
+	alias vim='nvim'
+	export PATH="$PATH:/home/bram/scripts:/home/bram/scripts/private"
+  '';
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
