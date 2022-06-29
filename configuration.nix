@@ -63,13 +63,16 @@
   sound.enable = true;
   hardware.pulseaudio.enable = true;
 
+  # backlight
+  programs.light.enable = true;
+
   # Enable touchpad support (enabled default in most desktopManager).
   services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.bram = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "networkmanager" ]; # Enable ‘sudo’ for the user.
+    extraGroups = [ "video" "wheel" "networkmanager" ]; # Enable ‘sudo’ for the user.
   };
 
   # Some programs need SUID wrappers, can be configured further or are

@@ -23,11 +23,11 @@
 	iotop
 	playerctl
 	ranger
+	gnumake
 
 	# i3
 	nitrogen
 	scrot
-	xorg.xbacklight
 	redshift
 	i3blocks
 	xfce.xfce4-power-manager
@@ -41,6 +41,12 @@
 	gnome.gnome-disk-utility
 	xfce.xfce4-terminal
 	pavucontrol
+	
+	# 'RICING'
+	lxappearance
+	adapta-gtk-theme
+	ubuntu_font_family
+	ubuntu-themes
 
 	# MULTIMEDIA
 	mpv
